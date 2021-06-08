@@ -893,6 +893,13 @@ footer small a:hover {
     #properties button.rounded {
         width: 250px;
     }
+    #properties-slider a.slick-arrow {
+        top: -50px;
+    }
+    #properties .container:before {
+        top: 31px;
+        font-size: 0.85rem;
+    }
 
     #services {
         padding: 4rem 0 3rem;
