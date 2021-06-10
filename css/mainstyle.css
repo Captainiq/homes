@@ -577,7 +577,7 @@ footer {
     max-width: 200px;
 }
 footer .flex {
-    padding-bottom: 6rem;
+    /* padding-bottom: 6rem; */
     border-bottom: 1px solid #777;
 }
 
@@ -700,6 +700,34 @@ footer small a {
 footer small a:hover {
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* end: footer styles */
 
 /* start: media queries */

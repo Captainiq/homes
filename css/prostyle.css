@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+p{
+    font-weight: 300;
+    color: #111;
+}
+.header {
+    background: #495057;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    letter-spacing:5px ;
+}
+section
+{
+    padding: 100px;
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+.titletext
+{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titletext span
+{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ff0157;
+}
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+.menu .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.menu .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .text
+{
+    padding: 15px 0 5px;
+}
+.text .price
+{
+    font-size: 1.2rem;
+    color: #343a40;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+}
+.text span
+{
+    font-size: 0.8rem;
+    padding-right: 15px;
+}
+.text address
+{
+    font-size: 0.8rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+}
+.beds
+{
+    border-right: 1px solid #888;
+    padding: 0px 15px 0 0;
+}
+.baths
+{
+    border-right: 1px solid #888;
+    padding: 0px 15px;
+}
+.sqft
+{
+    padding: 0px 0 0 15px;
+}
+.text span
+{
+    font-size: 0.8rem;
+    padding-right: 15px;
+}
